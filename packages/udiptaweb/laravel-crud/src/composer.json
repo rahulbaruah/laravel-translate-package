@@ -1,0 +1,26 @@
+{
+    "name": "udiptaweb/laravel-crud",
+    "description": "Create CRUDS with a single command",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Udiptaweb\\LaravelCrud\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "udiptaweb",
+            "email": "gogoiudipta000@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Udiptaweb\\LaravelCrud\\LaravelCrudServiceProvider"
+            ]
+        }
+    }
+}
